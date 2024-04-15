@@ -1,0 +1,230 @@
+body, 
+#body {
+    /* background-color: url("Rectangle6.png"); */
+    /* height: 100%; */
+    background-color: #071521;
+    position: relative;
+    /* C8D9D8 */
+    /* background-color: #cccccc;
+    background-image: linear-gradient(#32C79B, #5718DD);
+    background-attachment: fixed; */
+  }
+
+  /* *{ margin-left: 100px; } */
+
+
+  .header{
+    text-align: center;
+    /* font-size: 40px; */
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    height: 20%;
+    background-image: url("../Images/backgroundBanner.jpg");
+    background-size: cover;
+    /* background-color: #011096; */
+    padding-top: 4%;
+    padding-bottom: 4%;
+   }
+
+  p{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #CAF0F8;
+  }
+
+  ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    /* overflow: hidden; */
+ 
+  }
+
+  ul.event-list{
+    list-style-type: circle;
+    margin: 20px;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+
+  li.event-list::marker{
+    color: #CAF0F8;
+    font-size: 1.5rem;
+  }
+
+  li{
+    float: center;
+  }
+
+  li a{
+    display: block;
+    padding: 8px;
+    color: #90E0EF;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  p.biggerText{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    color: #CAF0F8;
+  }
+
+  .navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width:100%;
+    background-color: #040A11;
+    gap:20px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    position:sticky;
+    top: 0px;
+  }
+
+  .section-header{
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.6rem;
+    letter-spacing: 2px;
+    color: #CAF0F8;
+  }
+
+  #headerId{
+    /* padding-bottom:20px; */
+    color: whitesmoke;
+    font-size: 1.5rem;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+
+  #headerTitle{
+    color: whitesmoke;
+    font-size: 4rem;
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 2px;
+  }
+
+  #aboutPic{
+    align-items: right;
+  }
+
+  #aboutId{
+    display:flex;
+    justify-content: flex-end;
+  }
+
+  .mainContent{
+    padding-left: 50px;
+    top: 60px;
+  }
+
+  #section-1{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    gap:20px;
+  }
+
+  .section-1-div{
+    flex:2 auto;
+    /* width: 60%; */
+    text-align: center;
+
+  }
+
+  .section-1-div-2{
+    /* flex:4 auto; */
+    width: 60%;
+  }
+
+  .blurb{
+    background-color: #0B1F32;
+    /* height:50%; */
+    border-radius: 5%;
+    padding: 20px;
+    /* width: 50px; */
+
+  }
+
+  #AboutBlurb{
+    margin-top: 0;
+  }
+
+  .barAndMain{
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* .sidebar {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    background-color: #f1f1f1; */
+    /* position: fixed; */
+    /* height: 100%;
+    overflow: auto;
+  } */
+  
+  /* .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  } */
+   
+  /* .sidebar a.active {
+    background-color: #04AA6D;
+    color: white;
+  } */
+  
+  /* .sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  } */
+  
+  /* @media screen and (max-width: 700px) {
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+  } */
+  
+  /* @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+  } */
+
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* to change size of pic, alter the size by working in percentages not pixels */
